@@ -6,7 +6,7 @@ else if (numero <= -1) console.log("Esse é um numero negativo");
 else console.log("Esse é um numero positivo"); 
 
 // menor ou maior de idade
-let idade = 16;
+let idade = 1;
 
 if (idade >= 18) console.log("É maior de idade")
 else if (numero <18) console.log("Menor de idade")
