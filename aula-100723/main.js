@@ -58,4 +58,5 @@ console.log(Math.floor(2.368)); // arredonda pra baixo
 console.log(Math.round(2.67)); // arredonda para o mais proximo
 console.log(Math.sqrt(675));// raiz quadrada
 console.log(Math.abs(8.65)); //valor absoluto
-console.log(Math.floor(Math.random()*10000+1)); //numero aleatorio [0 , 1] (nessa caso do 1 ao 10000)
+console.log(Math.floor(Math.random()*20+10)); //numero aleatorio [0 , 1] (nessa caso do 1 ao 10000)
+
