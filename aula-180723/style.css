@@ -1,0 +1,24 @@
+.mensagem {
+    border: 3px solid rgb(42, 92, 158);
+    background-color: rgba(183, 205, 216, 0.664);
+    color: blue;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.erro {
+    border: 3px solid red;
+    background-color: rgba(141, 57, 57, 0.432);
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 20px;
+}
+
+.atencao {
+    border: 3px solid rgb(255, 217, 0);
+    background-color: rgba(173, 168, 94, 0.432);
+    color: rgb(201, 142, 15);
+    padding: 10px;
+    margin: 20px;
+}
