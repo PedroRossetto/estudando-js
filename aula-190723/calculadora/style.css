@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 97, 97);
+    background-image: url(david-spiers-PzKMcReo2Q4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.calculadora {
+    background-color: rgba(0, 0, 0, 0.89);
+    width: 220px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.calculadora input {
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px 15px;
+}
+
+.calculadora input:focus {
+    outline: 0;
+}
+
+.calculadora .btn {
+    flex: 1;
+    padding: 8px 10px;
+    min-width: 34px;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+}
+
+.calculadora .btn.span-2 {
+    flex: 5;
+}
+
+.calculadora .btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.calculadora .btn {
+   background-color: rgb(59, 59, 59);
+   color: white;
+}
+
+.calculadora .btn.gray {
+    background-color: gray;
+    color: black;
+}
+
+.calculadora .btn.operat {
+    background-color: rgb(182, 127, 25);
+}

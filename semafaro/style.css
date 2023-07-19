@@ -1,0 +1,35 @@
+
+img {
+    width: 300px;
+    object-fit: cover;
+    border: 10px solid rgb(122, 105, 46);
+    border-radius: 105px;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 100px;
+}
+
+#vermelho {
+    background-color: red;
+}
+#amarelo {
+    background-color: yellow;
+}
+
+#verde {
+    background-color: green;
+}
+
+#auto {
+    background-color: aqua;
+}
+
+.botoes {
+    margin-left: 33%;
+}
